@@ -77,6 +77,12 @@ a{
     color: #ffffff; 
 }
 
+#header h3{
+    letter-spacing: 0.5em;
+    font-size: 100px;
+    color: #181616; 
+}
+
 #header p{
     letter-spacing: 0.1em;
     color: white;
@@ -215,7 +221,7 @@ ul.styled li{
 /*  ***************************************************  */
 
 #gallary img{
-    width: 120px;
+    width: 50%auto;
     margin: 12px,
     -moz-transition: -moz-transform 0.5s ease-in;
     -webkit-transition: -webkit-transform 0.5s ease-in;
@@ -224,7 +230,7 @@ ul.styled li{
 }
 
 #gallary img:hover{
-    -moz-transform: scale(5);
-    -webkit-transform: scale(5);
-    -o-transform: scale(5);
+    -moz-transform: scale(2);
+    -webkit-transform: scale(2);
+    -o-transform: scale(2);
 }
